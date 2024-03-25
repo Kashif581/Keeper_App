@@ -2,12 +2,12 @@ import React from "react"
 
 function Note() {
     return (
-        <div>
+        <div className="note">
             <h1>
-                title
+                This is note title
             </h1>
             <p>
-                content
+                This is note content
             </p>
         </div>
     )
