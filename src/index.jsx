@@ -1,9 +1,10 @@
 //1. Create a new React app.
 import React from "react"
 import ReactDom from "react-dom"
+import App from "/components/App.jsx"
 
 ReactDom.render(
-    <div></div>,
+    <App />,
     document.getElementById("root")
 )
 //2. Create a App.jsx component.
